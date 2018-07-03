@@ -1,5 +1,5 @@
 <h1>Article</h1>
-<button class="btn btn-success" id="btn">Click me $_POST(123)</button>
+<button class="btn btn-success" id="btn">Click $_POST(123)</button>
 <?php
 $js = <<<Ajax
     $('#btn').on('click', function() {
